@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DCCoreDataManager_Example', :exclusive => true do
+  pod "DCCoreDataManager", :path => "../"
+end
+
+target 'DCCoreDataManager_Tests', :exclusive => true do
+  pod "DCCoreDataManager", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
