@@ -8,6 +8,7 @@
 DCCoreDataManager is a Objective C library for iOS. It encapsulates all the Core Data Stack and give to the developeras a Thread Safe mode to use Core Data in your applications.
 
 ## Requirements
+You need to add the CoreData Framework to your project if you wanto to use this pod.
 
 ## Installation
 
