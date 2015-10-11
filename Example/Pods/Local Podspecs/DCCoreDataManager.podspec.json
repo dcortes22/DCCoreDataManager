@@ -1,0 +1,25 @@
+{
+  "name": "DCCoreDataManager",
+  "version": "0.1.0",
+  "summary": "A short description of DCCoreDataManager.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DCCoreDataManager",
+  "license": "MIT",
+  "authors": {
+    "David Cortes": "dcortes22@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DCCoreDataManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DCCoreDataManager": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

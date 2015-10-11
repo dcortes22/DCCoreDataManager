@@ -1,0 +1,6 @@
+framework module Pods_DCCoreDataManager_Example {
+  umbrella header "Pods-DCCoreDataManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

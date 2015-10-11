@@ -1,0 +1,6 @@
+framework module DCCoreDataManager {
+  umbrella header "DCCoreDataManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

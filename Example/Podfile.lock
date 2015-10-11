@@ -1,0 +1,21 @@
+PODS:
+  - DCCoreDataManager (0.1.0)
+  - FBSnapshotTestCase (2.0.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.4)
+  - FBSnapshotTestCase/Core (2.0.4)
+  - FBSnapshotTestCase/SwiftSupport (2.0.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DCCoreDataManager (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DCCoreDataManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DCCoreDataManager: 83f2a4e2e964d14318c3fa647b261e24496d2c7f
+  FBSnapshotTestCase: d94cf34841c9e77390e29009e8e2713479d48753
+
+COCOAPODS: 0.38.2
