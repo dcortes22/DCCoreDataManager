@@ -21,8 +21,14 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8EDBD8E816C8FE7309F3A7FC /* Pods_DCCoreDataManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C52E85272D59B8BB0CD39 /* Pods_DCCoreDataManager_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		E382524651308374A2AA7DF6 /* Pods_DCCoreDataManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1143FB7BA43D67867F21247 /* Pods_DCCoreDataManager_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8EDBD8E816C8FE7309F3A7FC /* Pods_DCCoreDataManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C52E85272D59B8BB0CD39 /* Pods_DCCoreDataManager_Example.framework */; };
+		DE1C1F951BCAF7D000334A7A /* DCCoreDataManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE1C1F931BCAF7D000334A7A /* DCCoreDataManager.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		DE1C1F9B1BCAF82300334A7A /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C1F981BCAF82300334A7A /* User+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		DE1C1F9C1BCAF82300334A7A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C1F9A1BCAF82300334A7A /* User.m */; settings = {ASSET_TAGS = (); }; };
+		DE1C1F9E1BCAF89A00334A7A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1C1F9D1BCAF89A00334A7A /* CoreData.framework */; };
+		DE1C1FA01BCAFF5600334A7A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C1F9F1BCAFF5600334A7A /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		DE1C1FA31BCB021D00334A7A /* DCListUsersControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C1FA21BCB021D00334A7A /* DCListUsersControllerTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E382524651308374A2AA7DF6 /* Pods_DCCoreDataManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1143FB7BA43D67867F21247 /* Pods_DCCoreDataManager_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,7 @@
 		210F4FB10DA70838CE247763 /* Pods-DCCoreDataManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCCoreDataManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCCoreDataManager_Example/Pods-DCCoreDataManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		249C52E85272D59B8BB0CD39 /* Pods_DCCoreDataManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCoreDataManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34797B4976D9A8EAF8CF638A /* DCCoreDataManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DCCoreDataManager.podspec; path = ../DCCoreDataManager.podspec; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* DCCoreDataManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = DCCoreDataManager.app; path = DCCoreDataManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* DCCoreDataManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCCoreDataManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -63,6 +69,15 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9AF2F858CA9D8748DD28586D /* Pods-DCCoreDataManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCCoreDataManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCCoreDataManager_Tests/Pods-DCCoreDataManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4C5F56BC80DB21934719C3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DE1C1F941BCAF7D000334A7A /* DCCoreDataManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DCCoreDataManager.xcdatamodel; sourceTree = "<group>"; };
+		DE1C1F971BCAF82300334A7A /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "User+CoreDataProperties.h"; path = "Entities/User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DE1C1F981BCAF82300334A7A /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "User+CoreDataProperties.m"; path = "Entities/User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DE1C1F991BCAF82300334A7A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Entities/User.h; sourceTree = "<group>"; };
+		DE1C1F9A1BCAF82300334A7A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Entities/User.m; sourceTree = "<group>"; };
+		DE1C1F9D1BCAF89A00334A7A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DE1C1F9F1BCAFF5600334A7A /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DE1C1FA11BCB021D00334A7A /* DCListUsersControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCListUsersControllerTableViewController.h; sourceTree = "<group>"; };
+		DE1C1FA21BCB021D00334A7A /* DCListUsersControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCListUsersControllerTableViewController.m; sourceTree = "<group>"; };
 		F1143FB7BA43D67867F21247 /* Pods_DCCoreDataManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCoreDataManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6915930A943FBF3996C1036 /* Pods-DCCoreDataManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCCoreDataManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCCoreDataManager_Example/Pods-DCCoreDataManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1C1F9E1BCAF89A00334A7A /* CoreData.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -108,7 +124,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* DCCoreDataManager.app */,
+				6003F58A195388D20070C39A /* DCCoreDataManager_Example.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 			);
 			name = Products;
@@ -117,6 +133,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE1C1F9D1BCAF89A00334A7A /* CoreData.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -130,6 +147,7 @@
 		6003F593195388D20070C39A /* Example for DCCoreDataManager */ = {
 			isa = PBXGroup;
 			children = (
+				DE1C1F961BCAF7F400334A7A /* Entities */,
 				6003F59C195388D20070C39A /* DCAppDelegate.h */,
 				6003F59D195388D20070C39A /* DCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -137,6 +155,10 @@
 				6003F5A6195388D20070C39A /* DCViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				DE1C1F931BCAF7D000334A7A /* DCCoreDataManager.xcdatamodeld */,
+				DE1C1F9F1BCAFF5600334A7A /* Launch Screen.storyboard */,
+				DE1C1FA11BCB021D00334A7A /* DCListUsersControllerTableViewController.h */,
+				DE1C1FA21BCB021D00334A7A /* DCListUsersControllerTableViewController.m */,
 			);
 			name = "Example for DCCoreDataManager";
 			path = DCCoreDataManager;
@@ -193,6 +215,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DE1C1F961BCAF7F400334A7A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C1F971BCAF82300334A7A /* User+CoreDataProperties.h */,
+				DE1C1F981BCAF82300334A7A /* User+CoreDataProperties.m */,
+				DE1C1F991BCAF82300334A7A /* User.h */,
+				DE1C1F9A1BCAF82300334A7A /* User.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,7 +246,7 @@
 			);
 			name = DCCoreDataManager_Example;
 			productName = DCCoreDataManager;
-			productReference = 6003F58A195388D20070C39A /* DCCoreDataManager.app */;
+			productReference = 6003F58A195388D20070C39A /* DCCoreDataManager_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* DCCoreDataManager_Tests */ = {
@@ -278,6 +311,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				DE1C1FA01BCAFF5600334A7A /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,9 +424,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1C1F9B1BCAF82300334A7A /* User+CoreDataProperties.m in Sources */,
 				6003F59E195388D20070C39A /* DCAppDelegate.m in Sources */,
+				DE1C1F9C1BCAF82300334A7A /* User.m in Sources */,
 				6003F5A7195388D20070C39A /* DCViewController.m in Sources */,
+				DE1C1FA31BCB021D00334A7A /* DCListUsersControllerTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				DE1C1F951BCAF7D000334A7A /* DCCoreDataManager.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,10 +549,10 @@
 			baseConfigurationReference = 210F4FB10DA70838CE247763 /* Pods-DCCoreDataManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DCCoreDataManager/DCCoreDataManager-Prefix.pch";
 				INFOPLIST_FILE = "DCCoreDataManager/DCCoreDataManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -526,10 +564,10 @@
 			baseConfigurationReference = F6915930A943FBF3996C1036 /* Pods-DCCoreDataManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DCCoreDataManager/DCCoreDataManager-Prefix.pch";
 				INFOPLIST_FILE = "DCCoreDataManager/DCCoreDataManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -609,6 +647,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE1C1F931BCAF7D000334A7A /* DCCoreDataManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE1C1F941BCAF7D000334A7A /* DCCoreDataManager.xcdatamodel */,
+			);
+			currentVersion = DE1C1F941BCAF7D000334A7A /* DCCoreDataManager.xcdatamodel */;
+			path = DCCoreDataManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6003F582195388D10070C39A /* Project object */;
 }

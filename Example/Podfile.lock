@@ -1,5 +1,5 @@
 PODS:
-  - DCCoreDataManager (0.1.0)
+  - DCCoreDataManager (1.0.0)
   - FBSnapshotTestCase (2.0.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.0.4)
   - FBSnapshotTestCase/Core (2.0.4)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCoreDataManager: 83f2a4e2e964d14318c3fa647b261e24496d2c7f
+  DCCoreDataManager: 99ce993dfb289fe7a1179eb3e4dd36f8f6771328
   FBSnapshotTestCase: d94cf34841c9e77390e29009e8e2713479d48753
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

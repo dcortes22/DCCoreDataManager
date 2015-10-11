@@ -7,12 +7,15 @@
 //
 
 #import "DCAppDelegate.h"
+#import "DCCoreDataManager.h"
 
 @implementation DCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[DCCoreDataManager sharedInstance] setDataBaseName:@"DCCoreDataManager"];
+    [[DCCoreDataManager sharedInstance] initContext];
     return YES;
 }
 

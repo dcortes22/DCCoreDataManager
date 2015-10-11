@@ -10,4 +10,11 @@
 
 @interface DCViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *name;
+@property (weak, nonatomic) IBOutlet UITextField *last_name;
+@property (weak, nonatomic) IBOutlet UITextField *age;
+
+- (IBAction)createUser:(id)sender;
+
+
 @end

@@ -1,19 +1,19 @@
 {
   "name": "DCCoreDataManager",
-  "version": "0.1.0",
-  "summary": "A short description of DCCoreDataManager.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/DCCoreDataManager",
+  "version": "1.0.0",
+  "summary": "DCCoreDataManager is a Objective C, encapsulates all the Core Data Stack.",
+  "description": "A CoreData Manager to encapsule all the Core Data Stack on a Thread Safe mode",
+  "homepage": "https://github.com/dcortes22/DCCoreDataManager",
   "license": "MIT",
   "authors": {
     "David Cortes": "dcortes22@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/DCCoreDataManager.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/dcortes22/DCCoreDataManager.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "9.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
@@ -21,5 +21,6 @@
     "DCCoreDataManager": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "CoreData"
 }
